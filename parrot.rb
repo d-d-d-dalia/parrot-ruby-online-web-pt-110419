@@ -5,7 +5,7 @@ def parrot(phrase)
   if phrase
     puts "#{phrase}"
     return phrase
-  else
+  elsif !phrase
     puts "Squawk!"
     return "Squawk!"
   end
