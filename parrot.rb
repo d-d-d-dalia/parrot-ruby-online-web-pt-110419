@@ -3,7 +3,9 @@
 def parrot(phrase)
   if phrase
     puts "Pretty bird!"
-  end
-  puts "Squawk!"
+  else
+    puts "Squawk!"
   return "Squawk!"
+  end
+  
 end
