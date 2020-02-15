@@ -3,7 +3,8 @@
 
 def parrot(phrase)
   if phrase
-    puts "Pretty bird!"
+    puts "#{phrase}"
+    return phrase
   else
     puts "Squawk!"
     return "Squawk!"
